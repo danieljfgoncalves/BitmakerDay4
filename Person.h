@@ -18,6 +18,9 @@
 -(NSString *) returnFirstName;
 // working with NSNumbers and passing parameters
 -(NSNumber *) addTwoSums : (NSNumber *) firstNumber : (NSNumber *) secondNumber;
+// My test with NSString.
+-(NSString *) fullName : (NSString *) firstName : (NSString *) lastName;
+
 
 
 

@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
         Person* person = [[Person alloc]init];
         [person addTwoSums:@44 :@44];
         [person returnFirstName];
+        [person fullName:@"Daniel " :@"Goncalves"];
     }
     return 0;
 }

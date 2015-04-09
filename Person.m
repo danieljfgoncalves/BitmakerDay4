@@ -37,6 +37,13 @@
 
 }
 
+// My test with NSString.
+-(NSString *) fullName : (NSString *) firstName : (NSString *) lastName {
+
+    NSString *name = [firstName stringByAppendingString:lastName];
+    NSLog(@"My name is %@.", name);
+    return name;
+}
 
 
 @end
