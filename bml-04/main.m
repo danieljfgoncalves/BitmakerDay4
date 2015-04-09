@@ -8,10 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        
+        NSDate* today = [NSDate date];
+        NSObject* object2 = [NSObject new];
+        
+        object2 = @[@"Bye", @"Xau", @"Ciau"];
+    
+        
+        NSLog(@"Hello, World! Today is %@. %@", today, object2);
     }
     return 0;
 }
