@@ -7,21 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Person.h"
 
 
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        
-        NSDate* today = [NSDate date];
-        NSObject* object2 = [NSObject new];
-        
-        object2 = @[@"Bye", @"Xau", @"Ciau"];
-    
-        
-        NSLog(@"Hello, World! Today is %@. %@", today, object2);
+        // alloc & init
+        Person* person = [[Person alloc]init];
+        [person addTwoSums:@44 :@44];
+        [person returnFirstName];
     }
     return 0;
 }
